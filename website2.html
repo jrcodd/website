@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kraken Services</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div id="menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#checkout">Checkout</a></li>
+      </ul>
+    </div>
+    <div id="cart">
+      <a href="#checkout"><img src="cart.png" alt="Cart"></a>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <img src="company.jpg" alt="Company">
+      <p>Kraken Services was founded with the mission of providing top-notch technical assistance to our customers. We believe that everyone should have access to reliable and professional support when it comes to their technology needs.</p>
+      <p>Our team is dedicated to delivering high-quality services, including desktop computer builds, laptop modifications, device inspections, and general tech support. We strive to make sure that every customer is completely satisfied with our work.</p>
+      <p>Connect with us on social media or drop us an email to learn more about what we can do for you!</p>
+      <div id="social-media">
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+      <div id="email">
+        <a href="mailto:info@krakenservices.com">info@krakenservices.com</a>
+      </div>
+    </section>
+    <section id="services">
+      <h1>Our Services</h1>
+      <div class="service">
+        <img src="desktop.jpg" alt="Desktop Build">
+        <h2>Desktop Build</h2>
+        <p>Let us help you put together the perfect desktop computer for your needs. Whether you're a gamer, a designer, or just need a reliable workstation, we'll work with you to build the perfect machine.</p>
+        <div class="price">$999</div>
+        <button class="add-to-cart" data-name="Desktop Build" data-price="999">Add to Cart</button>
+      </div>
+      <div class="service">
+        <img src="laptop.jpg" alt="Laptop Modification">
+        <h2>Laptop Modification</h2>
+        <p>Is your laptop not quite meeting your needs? Let us help you upgrade it with new components or add custom features to make it exactly what you want it to be.</p>
+        <div class="price">$799</div>
+        <button class="add-to-cart" data-name="Laptop Modification" data-price="799">Add to Cart</button>
+      </div>
+      <div class="service">
+        <img src="inspection.jpg" alt="Device Inspection">
+        <h2>Device Inspection</h2>
+        <p>Is your device acting up or not working as it should? Let us take a look and diagnose the problem. We'll provide a detailed report of any issues and recommendations for repair or replacement.</p>
+        <div class="price">$99</div>
+        <button class="add-to-cart" data-name="Device Inspection" data-price="99">Add to Cart</button>
+      </div>
+      <div class="service">
+        <img src="tech-support.jpg" alt="General Tech Support">
+        <h2>General Tech Support</h2>
+        <p>Need help with something specific or just not sure where to start? Our team is here to provide general tech support and guidance to get you back on track.</p>
+        <div class="price">$149</div>
+        <button class="add-to-cart" data-name="General Tech Support" data-price="149">Add to Cart</button>
+      </div>
+    </section>
+    <section id="checkout">
+      <h1>Checkout</h1>
+      <div id="cart-items"></div>
+      <div id="total"></div>
+      <button id="checkout-button">Checkout</button>
+    </section>
+  </main>
+</body>
+</html>

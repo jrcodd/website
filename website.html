@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kraken Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<img src="logo.png" alt="Kraken Services logo">
+		<nav>
+			<ul>
+				<li><a href="#" class="dropdown-btn">About</a>
+					<ul class="dropdown-menu">
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#services">Our Services</a></li>
+						<li><a href="#checkout">Checkout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<a href="#checkout"><img src="cart.png" alt="Cart icon" id="cart-icon"></a>
+	</header>
+	<main>
+		<section id="about">
+			<img src="ocean.jpg" alt="Ocean">
+			<h1>About Kraken Services</h1>
+			<p>Kraken Services was founded with the mission of providing top-notch technical assistance to our customers. We believe that everyone should have access to reliable and affordable tech support, which is why we offer a wide range of services including desktop computer builds, laptop modifications, device inspections, and general tech support.</p>
+			<p>Our team of skilled technicians is dedicated to delivering exceptional service and customer satisfaction. We are constantly striving to improve and expand our offerings to meet the ever-changing needs of our clients.</p>
+			<h2>Mission Statement</h2>
+			<p>At Kraken Services, our mission is to provide top-quality technical assistance and support to our customers, ensuring their satisfaction and success. We are committed to staying up-to-date with the latest technologies and techniques in order to deliver the best service possible.</p>
+			<div id="social-media">
+				<a href="#"><img src="facebook.png" alt="Facebook logo"></a>
+				<a href="#"><img src="twitter.png" alt="Twitter logo"></a>
+				<a href="#"><img src="instagram.png" alt="Instagram logo"></a>
+			</div>
+			<p>Contact us at <a href="mailto:info@krakenservices.com">info@krakenservices.com</a></p>
+		</section>
+		<section id="services">
+			<h1>Our Services</h1>
+			<ul>
+				<li>
+					<img src="desktop.jpg" alt="Desktop computer">
+					<h2>Desktop Computer Builds</h2>
+					<p>Our team of experts can help you build the perfect desktop computer to meet your specific needs and budget. Prices start at $500.</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="laptop.jpg" alt="Laptop">
+					<h2>Laptop Modifications</h2>
+					<p>We can upgrade your laptop with the latest hardware and software to improve its performance and extend its lifespan. Prices start at $300.</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="inspection.jpg" alt="Device inspection">
+					<h2>Device Inspections</h2>
+					<p>Our technicians can thoroughly inspect your device to diagnose any issues and recommend the best course of action. Prices start at $100.</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="tech-support.jpg" alt="Tech support">
+					<h2>General Tech Support</h2>
+					<p>Need help with a technical issue? Our team is here to provide general tech support and troubleshooting assistance. Prices start at $50 per hour.</p>
+					<button>Add to Cart</button>
+				</li>
+			</ul>
+		</section>
+		<section id="checkout">
+			<h1>Checkout</h1>
+			<ul id="cart">
+				<li>
+					<img src="desktop.jpg" alt="Desktop computer">
+					<h2>Desktop Computer Build</h2>
+					<p>Price: $500</p>
+					<button onclick="removeFromCart(this)">Remove</button>
+				</li>
+			</ul>
+			<p id="total">Total: $500</p>
+			<button id="checkout-btn">Checkout</button>
+		</section>
+	</main>
+</body>
+</html>
